@@ -1,0 +1,16 @@
+package:
+    type:           yii2-extension
+    name:           yii2-asset-dropwind
+    title:          'DropWind asset files: images, configs and more'
+    headline:       DropWind assets
+    keywords:       dropwind, asset, extension, yii2
+    description:    |
+        [DropWind] is the domain registrator.
+
+        This package provides assets shareable between different DropWind projects:
+
+        - logos and css bundled with yii2 asset bundle
+        - config settings
+        - translations
+
+        [DropWind]: https://dropwind.com/

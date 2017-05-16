@@ -1,0 +1,47 @@
+{
+    "name": "dropwind/yii2-asset-dropwind",
+    "type": "yii2-extension",
+    "description": "DropWind asset files: images, configs and more",
+    "keywords": [
+        "dropwind",
+        "asset",
+        "extension",
+        "yii2"
+    ],
+    "homepage": "https://github.com/dropwind/yii2-asset-dropwind",
+    "license": "proprietary",
+    "support": {
+        "email": "support@dropwind.com",
+        "source": "https://github.com/dropwind/yii2-asset-dropwind",
+        "issues": "https://github.com/dropwind/yii2-asset-dropwind/issues",
+        "wiki": "https://github.com/dropwind/yii2-asset-dropwind/wiki"
+    },
+    "authors": [
+        {
+            "name": "Andrii Vasyliev",
+            "role": "Project lead",
+            "email": "sol@hiqdev.com",
+            "homepage": "http://hipanel.com/"
+        }
+    ],
+    "require-dev": {
+        "hiqdev/hidev-php": "<2.0",
+        "dropwind/hidev-dropwind": "<2.0 || dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "dropwind\\assets\\dropwind\\": "src"
+        }
+    },
+    "extra": {
+        "config-plugin": {
+            "params": "src/config/params.php"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}
