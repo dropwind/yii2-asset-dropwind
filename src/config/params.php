@@ -11,7 +11,7 @@
 $supportEmail = 'support@dropwind.com';
 
 return [
-    #'favicon.ico' => '@dropwind/assets/dropwind/assets/images/favicon.ico',
+    'favicon.ico' => '@dropwind/assets/dropwind/assets/images/favicon.ico',
 
     'organization.name' => 'DropWind',
     'organization.url' => 'https://dropwind.com/',
